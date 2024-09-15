@@ -1,0 +1,23 @@
+---
+import { Button } from "../ui/button"
+import { Icon } from "astro-icon/components"
+---
+
+<nav class="flex justify-between items-center py-8 px-4">
+  <header>
+    <a href="/">
+      <Icon name="bellasombra" class="p-2 text-9xl text-white" />
+    </a>
+  </header>
+  <ul class="flex items-center pr-6">
+    <li>
+      <Button className="uppercase font-light text-2xl text-white" variant="link">La carta</Button>
+    </li>
+    <li>
+      <Button className="mr-2 uppercase font-light text-2xl text-white" variant="link">Sobre nosotros</Button>
+    </li>
+    <li>
+      <Button className="uppercase rounded-none p-7 bg-white text-emerald-800 font-light text-2xl border" variant="link">Reservar</Button>
+    </li>
+  </ul>
+</nav>
